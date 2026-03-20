@@ -1,4 +1,5 @@
 import { GradeCalculator } from "./components/GradeCalculator";
+import { StatusToggle } from "./components/StatusToggle";
 import { UserList } from "./components/UserList";
 
 
@@ -10,7 +11,8 @@ function App() {
         <h1 className='text-4xl mb-5'>KATIA SILVA </h1>
 
        {/*  <UserList/> */}
-        <GradeCalculator/>        
+        {/* <GradeCalculator/> */}    
+        <StatusToggle/>    
  
       </div>
 
